@@ -14,9 +14,9 @@
 		839DD911293708B200341435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD910293708B200341435 /* ContentView.swift */; };
 		839DD913293708B400341435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839DD912293708B400341435 /* Assets.xcassets */; };
 		839DD916293708B400341435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839DD915293708B400341435 /* Preview Assets.xcassets */; };
-		839DD920293708B400341435 /* LoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD91F293708B400341435 /* LoginProjectTests.swift */; };
-		839DD92A293708B400341435 /* LoginProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD929293708B400341435 /* LoginProjectUITests.swift */; };
-		839DD92C293708B400341435 /* LoginProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD92B293708B400341435 /* LoginProjectUITestsLaunchTests.swift */; };
+		839DD920293708B400341435 /* WeaterSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD91F293708B400341435 /* WeaterSampleProjectTests.swift */; };
+		839DD92A293708B400341435 /* WeaterSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD929293708B400341435 /* WeaterSampleProjectUITests.swift */; };
+		839DD92C293708B400341435 /* WeaterSampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839DD92B293708B400341435 /* WeaterSampleProjectUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,16 +40,16 @@
 		835EA94429388A6400213BDA /* RoundedCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
 		835EA9462938AA5A00213BDA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		836C2A672938789800D04489 /* MainWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherView.swift; sourceTree = "<group>"; };
-		839DD90B293708B200341435 /* LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839DD90B293708B200341435 /* WeaterSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaterSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839DD90E293708B200341435 /* LoginProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectApp.swift; sourceTree = "<group>"; };
 		839DD910293708B200341435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		839DD912293708B400341435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839DD915293708B400341435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		839DD91B293708B400341435 /* LoginProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		839DD91F293708B400341435 /* LoginProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectTests.swift; sourceTree = "<group>"; };
-		839DD925293708B400341435 /* LoginProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		839DD929293708B400341435 /* LoginProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectUITests.swift; sourceTree = "<group>"; };
-		839DD92B293708B400341435 /* LoginProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		839DD91B293708B400341435 /* WeaterSampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaterSampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839DD91F293708B400341435 /* WeaterSampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaterSampleProjectTests.swift; sourceTree = "<group>"; };
+		839DD925293708B400341435 /* WeaterSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaterSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839DD929293708B400341435 /* WeaterSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaterSampleProjectUITests.swift; sourceTree = "<group>"; };
+		839DD92B293708B400341435 /* WeaterSampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaterSampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		839DD93829370DD000341435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,9 +81,9 @@
 		839DD902293708B200341435 = {
 			isa = PBXGroup;
 			children = (
-				839DD90D293708B200341435 /* LoginProject */,
-				839DD91E293708B400341435 /* LoginProjectTests */,
-				839DD928293708B400341435 /* LoginProjectUITests */,
+				839DD90D293708B200341435 /* WeaterSampleProject */,
+				839DD91E293708B400341435 /* WeaterSampleProjectTests */,
+				839DD928293708B400341435 /* WeaterSampleProjectUITests */,
 				839DD90C293708B200341435 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		839DD90C293708B200341435 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				839DD90B293708B200341435 /* LoginProject.app */,
-				839DD91B293708B400341435 /* LoginProjectTests.xctest */,
-				839DD925293708B400341435 /* LoginProjectUITests.xctest */,
+				839DD90B293708B200341435 /* WeaterSampleProject.app */,
+				839DD91B293708B400341435 /* WeaterSampleProjectTests.xctest */,
+				839DD925293708B400341435 /* WeaterSampleProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		839DD90D293708B200341435 /* LoginProject */ = {
+		839DD90D293708B200341435 /* WeaterSampleProject */ = {
 			isa = PBXGroup;
 			children = (
 				839DD93829370DD000341435 /* Info.plist */,
@@ -110,7 +110,7 @@
 				839DD912293708B400341435 /* Assets.xcassets */,
 				839DD914293708B400341435 /* Preview Content */,
 			);
-			path = LoginProject;
+			path = WeaterSampleProject;
 			sourceTree = "<group>";
 		};
 		839DD914293708B400341435 /* Preview Content */ = {
@@ -121,29 +121,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		839DD91E293708B400341435 /* LoginProjectTests */ = {
+		839DD91E293708B400341435 /* WeaterSampleProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				839DD91F293708B400341435 /* LoginProjectTests.swift */,
+				839DD91F293708B400341435 /* WeaterSampleProjectTests.swift */,
 			);
-			path = LoginProjectTests;
+			path = WeaterSampleProjectTests;
 			sourceTree = "<group>";
 		};
-		839DD928293708B400341435 /* LoginProjectUITests */ = {
+		839DD928293708B400341435 /* WeaterSampleProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				839DD929293708B400341435 /* LoginProjectUITests.swift */,
-				839DD92B293708B400341435 /* LoginProjectUITestsLaunchTests.swift */,
+				839DD929293708B400341435 /* WeaterSampleProjectUITests.swift */,
+				839DD92B293708B400341435 /* WeaterSampleProjectUITestsLaunchTests.swift */,
 			);
-			path = LoginProjectUITests;
+			path = WeaterSampleProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		839DD90A293708B200341435 /* LoginProject */ = {
+		839DD90A293708B200341435 /* WeaterSampleProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 839DD92F293708B400341435 /* Build configuration list for PBXNativeTarget "LoginProject" */;
+			buildConfigurationList = 839DD92F293708B400341435 /* Build configuration list for PBXNativeTarget "WeaterSampleProject" */;
 			buildPhases = (
 				839DD907293708B200341435 /* Sources */,
 				839DD908293708B200341435 /* Frameworks */,
@@ -153,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = LoginProject;
+			name = WeaterSampleProject;
 			productName = LoginProject;
-			productReference = 839DD90B293708B200341435 /* LoginProject.app */;
+			productReference = 839DD90B293708B200341435 /* WeaterSampleProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		839DD91A293708B400341435 /* LoginProjectTests */ = {
+		839DD91A293708B400341435 /* WeaterSampleProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 839DD932293708B400341435 /* Build configuration list for PBXNativeTarget "LoginProjectTests" */;
+			buildConfigurationList = 839DD932293708B400341435 /* Build configuration list for PBXNativeTarget "WeaterSampleProjectTests" */;
 			buildPhases = (
 				839DD917293708B400341435 /* Sources */,
 				839DD918293708B400341435 /* Frameworks */,
@@ -171,14 +171,14 @@
 			dependencies = (
 				839DD91D293708B400341435 /* PBXTargetDependency */,
 			);
-			name = LoginProjectTests;
+			name = WeaterSampleProjectTests;
 			productName = LoginProjectTests;
-			productReference = 839DD91B293708B400341435 /* LoginProjectTests.xctest */;
+			productReference = 839DD91B293708B400341435 /* WeaterSampleProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		839DD924293708B400341435 /* LoginProjectUITests */ = {
+		839DD924293708B400341435 /* WeaterSampleProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 839DD935293708B400341435 /* Build configuration list for PBXNativeTarget "LoginProjectUITests" */;
+			buildConfigurationList = 839DD935293708B400341435 /* Build configuration list for PBXNativeTarget "WeaterSampleProjectUITests" */;
 			buildPhases = (
 				839DD921293708B400341435 /* Sources */,
 				839DD922293708B400341435 /* Frameworks */,
@@ -189,9 +189,9 @@
 			dependencies = (
 				839DD927293708B400341435 /* PBXTargetDependency */,
 			);
-			name = LoginProjectUITests;
+			name = WeaterSampleProjectUITests;
 			productName = LoginProjectUITests;
-			productReference = 839DD925293708B400341435 /* LoginProjectUITests.xctest */;
+			productReference = 839DD925293708B400341435 /* WeaterSampleProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 839DD906293708B200341435 /* Build configuration list for PBXProject "LoginProject" */;
+			buildConfigurationList = 839DD906293708B200341435 /* Build configuration list for PBXProject "WeaterSampleProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				839DD90A293708B200341435 /* LoginProject */,
-				839DD91A293708B400341435 /* LoginProjectTests */,
-				839DD924293708B400341435 /* LoginProjectUITests */,
+				839DD90A293708B200341435 /* WeaterSampleProject */,
+				839DD91A293708B400341435 /* WeaterSampleProjectTests */,
+				839DD924293708B400341435 /* WeaterSampleProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839DD920293708B400341435 /* LoginProjectTests.swift in Sources */,
+				839DD920293708B400341435 /* WeaterSampleProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839DD92C293708B400341435 /* LoginProjectUITestsLaunchTests.swift in Sources */,
-				839DD92A293708B400341435 /* LoginProjectUITests.swift in Sources */,
+				839DD92C293708B400341435 /* WeaterSampleProjectUITestsLaunchTests.swift in Sources */,
+				839DD92A293708B400341435 /* WeaterSampleProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		839DD91D293708B400341435 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 839DD90A293708B200341435 /* LoginProject */;
+			target = 839DD90A293708B200341435 /* WeaterSampleProject */;
 			targetProxy = 839DD91C293708B400341435 /* PBXContainerItemProxy */;
 		};
 		839DD927293708B400341435 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 839DD90A293708B200341435 /* LoginProject */;
+			target = 839DD90A293708B200341435 /* WeaterSampleProject */;
 			targetProxy = 839DD926293708B400341435 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,11 +431,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LoginProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeaterSampleProject/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginProject/Info.plist;
+				INFOPLIST_FILE = WeaterSampleProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
@@ -464,11 +464,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LoginProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeaterSampleProject/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginProject/Info.plist;
+				INFOPLIST_FILE = WeaterSampleProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
@@ -504,7 +504,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeaterSampleProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeaterSampleProject";
 			};
 			name = Debug;
 		};
@@ -523,7 +523,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeaterSampleProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeaterSampleProject";
 			};
 			name = Release;
 		};
@@ -540,7 +540,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LoginProject;
+				TEST_TARGET_NAME = WeaterSampleProject;
 			};
 			name = Debug;
 		};
@@ -557,14 +557,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LoginProject;
+				TEST_TARGET_NAME = WeaterSampleProject;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		839DD906293708B200341435 /* Build configuration list for PBXProject "LoginProject" */ = {
+		839DD906293708B200341435 /* Build configuration list for PBXProject "WeaterSampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				839DD92D293708B400341435 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		839DD92F293708B400341435 /* Build configuration list for PBXNativeTarget "LoginProject" */ = {
+		839DD92F293708B400341435 /* Build configuration list for PBXNativeTarget "WeaterSampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				839DD930293708B400341435 /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		839DD932293708B400341435 /* Build configuration list for PBXNativeTarget "LoginProjectTests" */ = {
+		839DD932293708B400341435 /* Build configuration list for PBXNativeTarget "WeaterSampleProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				839DD933293708B400341435 /* Debug */,
@@ -591,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		839DD935293708B400341435 /* Build configuration list for PBXNativeTarget "LoginProjectUITests" */ = {
+		839DD935293708B400341435 /* Build configuration list for PBXNativeTarget "WeaterSampleProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				839DD936293708B400341435 /* Debug */,

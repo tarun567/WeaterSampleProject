@@ -1,6 +1,6 @@
 //
 //  MainWeatherView.swift
-//  LoginProject
+//  WeaterSampleProject
 //
 //  Created by Tarun Chaudhary on 01/12/22.
 //

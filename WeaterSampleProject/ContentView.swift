@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  LoginProject
+//  WeaterSampleProject
 //
 //  Created by Tarun Chaudhary on 30/11/22.
 //
@@ -29,12 +29,10 @@ struct ContentView: View {
                
                 Button{
                     print("tapped")
-                    isNight.toggle()
-                    
-                    
-                    
+                    isNight.toggle()                    
+                        
                 }label: {
-                    RoundedCornerButton(title: "Terms & Conditions", backgroundcolor: Color.white, textColor:Color.blue)
+                    RoundedCornerButton(title: "Change UI", backgroundcolor: Color.white, textColor:Color.blue)
                 }
 
             }

@@ -1,13 +1,13 @@
 //
-//  LoginProjectUITests.swift
-//  LoginProjectUITests
+//  WeaterSampleProjectUITests.swift
+//  WeaterSampleProjectUITests
 //
 //  Created by Tarun Chaudhary on 30/11/22.
 //
 
 import XCTest
 
-final class LoginProjectUITests: XCTestCase {
+final class WeaterSampleProjectUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

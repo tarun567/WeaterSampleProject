@@ -1,13 +1,13 @@
 //
-//  LoginProjectUITestsLaunchTests.swift
-//  LoginProjectUITests
+//  WeaterSampleProjectUITestsLaunchTests.swift
+//  WeaterSampleProjectUITests
 //
 //  Created by Tarun Chaudhary on 30/11/22.
 //
 
 import XCTest
 
-final class LoginProjectUITestsLaunchTests: XCTestCase {
+final class WeaterSampleProjectUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
